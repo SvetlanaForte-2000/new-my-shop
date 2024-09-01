@@ -251,7 +251,7 @@ const currentUserID = localStorage.getItem('currentUserID');
                 localStorage.removeItem("user"); // змінити "user" на ім'я ключа
             
                 //Повернення на головну сторінку
-                window.location.href = "index.html";
+                window.location.href = "./index.html";
             });
             
             setupEventListeners();
