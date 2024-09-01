@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Завантаження даних товарів із JSON файлу
-const dataFilePath = path.join(__dirname, './newproduct.json');
+const dataFilePath = path.join(__dirname, 'newproduct.json');
 const productsData = require(dataFilePath); // Завантажуємо дані з файлу
 
 // Перетворення даних на масив з додаванням підкатегорій
@@ -139,8 +139,8 @@ const template = (product) => `
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${product.name}</title>
-    <link rel="stylesheet" href="./css/css/styles.css">
-    <link rel="stylesheet" href="./css/css/product-card.css">
+    <link rel="stylesheet" href="/css/css/styles.css">
+    <link rel="stylesheet" href="/css/css/product-card.css">
 </head>
 <body>
    <header class="header">
@@ -150,7 +150,7 @@ const template = (product) => `
                     <ul>
                         <li><a href="#about">Про нас</a></li>
                         <li><a href="#delivery">Доставка та оплата</a></li>
-                        <li><a href="./catalog.html">Каталог</a></li>
+                        <li><a href="/catalog.html">Каталог</a></li>
                         <li><a href="#sale">Акції</a></li>
                     </ul>
                     <div class="header-top-right">
@@ -166,8 +166,8 @@ const template = (product) => `
                 <div class="header-bottom">
                  
                         <div class="header-bottom-content">
-                            <a href="./index.html" class="logo">
-                                <img src="./images/free-icon-circle-button-458511 (1).png" alt="Логотип" />
+                            <a href="/index.html" class="logo">
+                                <img src="/images/free-icon-circle-button-458511 (1).png" alt="Логотип" />
                             </a>
                             <nav class="header-bottom-nav">
                                 <ul>
@@ -178,25 +178,25 @@ const template = (product) => `
                                                 <div class="category">
                                                     <span>Смартфони та гаджети</span>
                                                     <div class="subcategory">
-                                                        <a href="./smartphones.html">Смартфони</a>
-                                                        <a href="./phones.html">Телефони</a>
-                                                        <a href="./headphones.html">Навушники</a>
+                                                        <a href="/smartphones.html">Смартфони</a>
+                                                        <a href="/phones.html">Телефони</a>
+                                                        <a href="/headphones.html">Навушники</a>
                                                     </div>
                                                 </div>
                                                 <div class="category">
                                                     <span>Ноутбуки та компьютери</span>
                                                     <div class="subcategory">
-                                                        <a href="./laptops.html">Ноутбуки</a>
-                                                        <a href="./monitors.html">Монітори</a>
-                                                        <a href="./tablets.html">Планшети</a>
+                                                        <a href="/laptops.html">Ноутбуки</a>
+                                                        <a href="/monitors.html">Монітори</a>
+                                                        <a href="/tablets.html">Планшети</a>
                                                     </div>
                                                 </div>
                                                 <div class="category">
                                                     <span>Побутова техніка</span>
                                                     <div class="subcategory">
-                                                        <a href="./refrigerators.html">Холодильники</a>
-                                                        <a href="./tv.html">Телевізори</a>
-                                                        <a href="./washing-machines.html">Пральні машини</a>
+                                                        <a href="/refrigerators.html">Холодильники</a>
+                                                        <a href="/tv.html">Телевізори</a>
+                                                        <a href="/washing-machines.html">Пральні машини</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -214,7 +214,7 @@ const template = (product) => `
                                     </li>
                                     <li> <!-- Корзина -->
                                         <button id="cart-icon" aria-label="Корзина">
-                                            <img src="./images/basket.png" alt="Корзина" />
+                                            <img src="/images/basket.png" alt="Корзина" />
                                         </button>
                                     
                                         <!-- Контейнер корзини -->
