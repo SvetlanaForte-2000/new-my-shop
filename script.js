@@ -152,7 +152,7 @@ loginForm.addEventListener('submit', function (event) {
     if (user) {
         setCurrentUser(user.id); // Збереження поточного користувача перед переходом
         alert('Ви успішно увійшли до системи!');
-        window.location.href = '/user-account.html'; // Перенаправлення на сторінку особистого кабінету
+        window.location.href = './user-account.html'; // Перенаправлення на сторінку особистого кабінету
     } else {
         alert('Неправильний номер телефону або пароль');
     }
@@ -295,7 +295,7 @@ function removeItem(index) {
 }
 // Функція для переходу на сторінку оформлення замовлення
 document.getElementById('checkout-button').addEventListener('click', function() {
-    window.location.href = '/checkout.html';
+    window.location.href = './checkout.html';
 });
 
 // Додавання обробників подій
@@ -322,7 +322,7 @@ const subcategories = {
 // Функція для завантаження даних із файлу JSON та збереження їх у LocalStorage
 function loadProductsFromFile() {
     // Створюємо запит на сервер для завантаження JSON файлу
-    fetch('/productsWithUrls.json') 
+    fetch('./productsWithUrls.json') 
         .then(response => response.json())
         .then(products => {
             // Оновлення підкатегорії для кожного товару
