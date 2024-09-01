@@ -1,5 +1,5 @@
 {
-    "name": "your-project-name",
+    "name": "new-my-shop",
     "version": "1.0.0",
     "scripts": {
       "start": "http-server ."
