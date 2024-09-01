@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     
             alert('Ваше замовлення було успішно оформлене!');
             // Перенаправлення або оновлення сторінки
-            window.location.href = '/index.html'; //Перенаправлення на головну 
+            window.location.href = './index.html'; //Перенаправлення на головну 
         });
     });
 
