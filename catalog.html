@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Shop</title>
+    <title>Категорії</title>
+    <link rel="stylesheet" href="/css/css/catalog.css">
     <link rel="stylesheet" href="/css/css/styles.css">
 </head>
 <body>
@@ -101,34 +102,104 @@
             </div>
         </div>
     </header>
-<main>
-    <!-- Основний контент  -->
-<!-- Карусель -->
-<div class="carousel">
-    <div class="carousel__wrapper">
-      <div class="carousel__item">
-        <img src="/images/banner1.jpg" alt="Banner 1" class="carousel__image">
-      </div>
-      <div class="carousel__item">
-        <img src="/images/banner2.jpg" alt="Banner 2" class="carousel__image">
-      </div>
-      <div class="carousel__item">
-        <img src="/images/banner3.jpg" alt="Banner 3" class="carousel__image">
-      </div>
-      <!-- Банери -->
-    </div>
-    <button class="carousel__control carousel__control--prev">‹</button>
-    <button class="carousel__control carousel__control--next">›</button>
-  </div>
-  <section id="popular-products" class="popular-products">
-    <h2 class="popular-products__title">Популярні товари</h2>
-    <div class="popular-products__grid">
-        <!-- Карточки товаров будут добавлены динамически через JavaScript -->
-    </div>
-</section>
-</main>
-    <!-- Модальне вікно для 'Особистий кабінет' -->
-    <div id="account-modal" class="modal">
+    <main>
+        <div class="container-main">
+           <h1 class="catalo-title">Каталог</h1>
+            <div class="catalog-main">
+                <h2><a href="laptops-and-computers.html">Ноутбуки та комп'ютери</a></h2>
+                <ul class="subcategory-list">
+                    <li class="subcategory-item">
+                        <a href="/laptops.html">
+                            <div class="subcategory-image">
+                                <img src="/images/Notebook.jpg" alt="Ноутбуки">
+                            </div>
+                            <h3>Ноутбуки</h3>
+                        </a>
+                    </li>
+                    <li class="subcategory-item">
+                        <a href="/monitors.html">
+                            <div class="subcategory-image">
+                                <img src="/images/Monitor.jpg" alt="Монітори">
+                            </div>
+                            <h3>Монітори</h3>
+                        </a>
+                    </li>
+                    <li class="subcategory-item">
+                        <a href="/monitors.html">
+                            <div class="subcategory-image">
+                                <img src="/images/Planshet.jpg" alt="Планшети">
+                            </div>
+                            <h3>Планшети</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="catalog-main">
+                <h2><a href="/smartphones-and-gadgets.html">Смартфони та гаджети</a></h2>
+                <ul class="subcategory-list">
+                    <li class="subcategory-item">
+                        <a href="/smartphones.html">
+                            <div class="subcategory-image">
+                                <img src="/images/Smartfone.jpg" alt="Смартфони">
+                            </div>
+                            <h3>Смартфони</h3>
+                        </a>
+                    </li>
+                    <li class="subcategory-item">
+                        <a href="/phones.html">
+                            <div class="subcategory-image">
+                                <img src="/images/Telephone.jpg" alt="Мобільні телефони">
+                            </div>
+                            <h3>Мобільні телефони</h3>
+                        </a>
+                    </li>
+                    <li class="subcategory-item">
+                        <a href="/headphones.html">
+                            <div class="subcategory-image">
+                                <img src="/images/Headphone.jpg" alt="Навушники">
+                            </div>
+                            <h3>Навушники</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="catalog-main">
+                <h2><a href="appliances-for-the-home.html">Техніка для дому</a></h2>
+                <ul class="subcategory-list">
+                    <li class="subcategory-item">
+                        <a href="/refrigerators.html">
+                            <div class="subcategory-image">
+                                <img src="/images/Freez.jpg" alt="Холодильники">
+                            </div>
+                            <h3>Холодильники</h3>
+                        </a>
+                    </li>
+                    <li class="subcategory-item">
+                        <a href="/tv.html">
+                            <div class="subcategory-image">
+                                <img src="/images/tv.jpg" alt="Телевізори">
+                            </div>
+                            <h3>Телевізори</h3>
+                        </a>
+                    </li>
+                    <li class="subcategory-item">
+                        <a href="/washing-machines.html">
+                            <div class="subcategory-image">
+                                <img src="/images/Wash.jpg" alt="Пральні машини">
+                            </div>
+                            <h3>Пральні машини</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+       
+    </main>
+     <!-- Модальне вікно для 'Особистий кабінет' -->
+     <div id="account-modal" class="modal">
         <div class="modal-content">
             <span class="close-button" id="close-button">&times;</span>
             <div class="modal-tabs">
@@ -167,7 +238,10 @@
             </div>
         </div>
     </div>
-
+    <div id="categories-container"></div>
+    <footer>
+        <!-- Футер -->
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuid.min.js"></script>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
@@ -175,8 +249,8 @@
 <script type="text/javascript">
 
 </script>
-    <script src="script.js"></script>
-  
+    <script src="/script.js"></script>
+
+<script src="/catalog.js"></script>
 </body>
 </html>
-

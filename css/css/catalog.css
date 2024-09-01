@@ -1,0 +1,157 @@
+/* Основные стили */
+.container-main {
+    margin-bottom: 40px;
+}
+.catalo-title {
+    text-align: center; /* Центрирование заголовка */ 
+}
+
+.catalog-main h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center; /* Центрирование заголовка */
+}
+.subcategory-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.subcategory-item {
+    width: calc(33.33% - 20px); /* Три подкатегории в ряд */
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.subcategory-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.subcategory-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.subcategory-image img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.subcategory-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Стили для секции с карточками товаров */
+.product-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.product-section h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    justify-content:space-between;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(25% - 20px); /* 4 карточки в ряд с учетом промежутка */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-button {
+    background-color: #f60;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+    background-color: #e55a00;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Медиа-запросы для адаптивности */
+
+/* Для экранов до 1024px (планшеты) */
+@media (max-width: 1024px) {
+    .subcategory-item {
+        width: calc(50% - 20px); /* Две подкатегории в ряд на планшетах */
+    }
+
+    .product-card {
+        width: calc(33.33% - 20px); /* 3 карточки в ряд на планшетах */
+    }
+}
+
+/* Для экранов до 768px (мобильные устройства) */
+@media (max-width: 768px) {
+    .subcategory-item {
+        width: 100%; /* Подкатегории занимают всю ширину контейнера */
+    }
+
+    .product-card {
+        width: calc(50% - 20px); /* 2 карточки в ряд на мобильных устройствах */
+    }
+}
+
+/* Для экранов до 480px (мобильные устройства) */
+@media (max-width: 480px) {
+    .subcategory-item {
+        width: 100%; /* Подкатегории занимают всю ширину экрана */
+    }
+
+    .product-card {
+        width: 100%; /* Одна карточка в ряд */
+    }
+
+    .subcategory-image img {
+        width: 80px;
+        height: 80px; /* Уменьшение размера изображений на маленьких экранах */
+    }
+}

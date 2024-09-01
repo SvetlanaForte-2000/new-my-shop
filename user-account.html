@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/css/user-account.css">
+</head>
+<body>
+    <main class="main-content">
+        <nav class="sidebar">
+            <ul class="sidebar__list">
+                <li class="sidebar__item"><a href="#" class="sidebar__link" onclick="showSection('home')">Головна</a></li>
+                <li class="sidebar__item"><a href="#" class="sidebar__link" onclick="showSection('orders')">Мої замовлення</a></li>
+                <li class="sidebar__item"><a href="#" class="sidebar__link" onclick="showSection('personal-info')">Особиста інформація</a></li>
+                <li class="sidebar__item">
+                    <a href="#" class="sidebar__link" id="logout-link">Вихід</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <section id="home" class="content__section content__section--active">
+                <h1 class="content__title">Ласкаво просимо, <span id="user-name"></span>!</h1>
+                <p class="content__text">Email: <span id="user-email"></span></p>
+                <p class="content__text">Телефон: <span id="user-phone"></span></p>
+            </section>
+            <section id="orders" class="content__section">
+                <h2 class="content__title">Мої замовлення</h2>
+                <div class="order" data-order-id="12345">
+                    <h3 class="order__title" onclick="toggleOrderDetails(this)">Замовлення #12345</h3>
+                    <p class="order__date">Дата: 01.01.2024</p>
+                    <p class="order__status">Статус: В обробці</p>
+                    <div class="order__details">
+                        <p>Деталі замовлення: товар 1, товар 2, товар 3...</p>
+                    </div>
+                </div>
+                <!-- Більше замовлень -->
+            </section>
+            <section id="personal-info" class="content__section">
+                <h2 class="content__title">Особиста інформація</h2>
+                <div class="personal-info__section">
+                    <h3>Контактні дані</h3>
+                    <div class="personal-info__field">
+                        <label for="edit-first-name" class="personal-info__label">Ім'я:</label>
+                        <input type="text" id="edit-first-name" class="personal-info__input" value="не вказано" readonly />
+                    </div>
+                    <div class="personal-info__field">
+                        <label for="edit-last-name" class="personal-info__label">Прізвище:</label>
+                        <input type="text" id="edit-last-name" class="personal-info__input" value="не вказано" readonly />
+                    </div>
+                    <div class="personal-info__field">
+                        <label for="edit-middle-name" class="personal-info__label">По батькові:</label>
+                        <input type="text" id="edit-middle-name" class="personal-info__input" value="не вказано" readonly />
+                    </div>
+                    <div class="personal-info__field">
+                        <label for="edit-phone" class="personal-info__label">Основний номер телефону:</label>
+                        <input type="text" id="edit-phone" class="personal-info__input" value="не вказано" readonly />
+                        <button id="edit-phone-btn" class="personal-info__button" type="button">Змінити</button>
+                    </div>
+                    <div class="personal-info__field">
+                        <label for="edit-email" class="personal-info__label">Email:</label>
+                        <input type="text" id="edit-email" class="personal-info__input" value="не вказаноs" readonly />
+                        <button id="edit-email-btn" class="personal-info__button" type="button">Змінити</button>
+                    </div>
+                    <div class="personal-info__field">
+                        <label for="edit-birthdate" class="personal-info__label">Дата народження:</label>
+                        <input type="text" id="edit-birthdate" class="personal-info__input" value="не вказано" readonly />
+                        <button id="edit-birthdate-btn" class="personal-info__button" type="button">Змінити</button>
+                    </div>
+                </div> 
+               
+                <div class="personal-info__section">
+                    <h3>Мої адреси</h3>
+                    <p>Адреси будуть відображатися тут.</p>
+                    <button id="edit-addresses" class="personal-info__button " type="button">Змінити</button>
+                </div>
+            
+                <div class="personal-info__section">
+                    <h3>Соцмережі</h3>
+                    <p>Прив'язка до соцмереж.</p>
+                    <button id="connect-google" type="button" >Прив'язати до Google</button>
+                    
+                </div>
+            
+                <div class="personal-info__section">
+                    <h3>Управління підписками</h3>
+                    <label><input type="checkbox" id="subscribe-sales" /> Розпродаж</label>
+                    <label><input type="checkbox" id="subscribe-promotions" /> Акції</label>
+                    <label><input type="checkbox" id="subscribe-news" /> Новини</label>
+                    <button id="update-subscriptions" class="update-subscriptions" type="button">Оновити підписки</button>
+                </div>
+            </section>
+        </div>
+    </main> 
+    <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuid.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+<script type="text/javascript">
+
+</script>
+    <script src="/user-account.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,261 @@
+
+/* Основной блок */
+.checkout {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Контейнер для формы и информации */
+.checkout__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.checkout__information {
+    flex: 1; 
+}
+/* Общий вид шага */
+.checkout__step {
+    display: none;
+}
+
+/* Показ активного шага */
+.checkout__step--contact,
+.checkout__step--delivery,
+.checkout__step--payment {
+    display: block;
+}
+
+/* Форма */
+.checkout__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout__fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.checkout__legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.checkout__label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.checkout__input,
+.checkout__select,
+.checkout__textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.checkout__button {
+    background: #d83d3d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.checkout__button:hover {
+    background: #e11b1b;
+}
+
+.checkout__edit-button {
+    background: none;
+    border: none;
+    color: #d83d3d;
+    cursor: pointer;
+    font-size: 14px;
+}
+.hidden {
+    display: none;
+}
+/* Доставка */
+.checkout__address-info,
+.checkout__nova-poshta-info {
+    display: none;
+}
+.checkout__recipient-info {
+    margin-bottom: 15px;
+}
+
+.checkout__recipient-info label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.checkout__recipient-info input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+/* Показываем элементы в зависимости от выбранного метода доставки */
+#address-info.show,
+#nova-poshta-info.show {
+    display: block;
+}
+.checkout__nova-poshta-select {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.checkout__nova-poshta-select label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff; /* Белый фон для поля ввода */
+}
+
+.dropdown {
+    position: absolute;
+    top: calc(100% + 5px); /* Расположить под полем ввода с отступом */
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Белый фон для выпадающего списка */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none; /* Скрыть по умолчанию */
+}
+
+.dropdown div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown div:hover {
+    background-color: #f0f0f0; /* Цвет фона при наведении */
+}
+/* Комментарии и опции */
+.checkout__comments {
+    margin-bottom: 20px;
+}
+
+.checkout__checkbox {
+    margin-right: 10px;
+}
+
+/* Информация о заказе */
+.checkout__order-info {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    width: 50%;
+}
+
+.checkout__order-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.checkout__order-item {
+    margin-bottom: 20px;
+}
+
+.checkout__order-item-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.checkout__order-item-date,
+.checkout__order-item-price,
+.checkout__order-item-quantity,
+.checkout__order-item-subtotal {
+    margin-bottom: 5px;
+}
+
+.checkout__promo-section {
+    margin-bottom: 20px;
+}
+
+.checkout__promo-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkout__promo-input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.checkout__next {
+    background: #d83d3d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.checkout__next:hover {
+    background: #e02626;
+}
+.checkout__promo-button {
+    background: #d83d3d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.checkout__promo-button:hover {
+    background: #e02626;
+}
+
+/* Резюме */
+.checkout__summary {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.checkout__summary-item,
+.checkout__summary-total {
+    margin-bottom: 10px;
+}
+
+.checkout__summary-amount {
+    font-weight: bold;
+}

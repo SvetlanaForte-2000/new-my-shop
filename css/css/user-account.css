@@ -1,0 +1,165 @@
+/* personal-account.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #444;
+    color: #fff;
+    padding: 1rem;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar__item {
+    margin-bottom: 1rem;
+}
+
+.sidebar__link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.sidebar__link:hover {
+    background-color: #555;
+}
+
+.content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content__section {
+    display: none;
+}
+
+.content__section--active {
+    display: block;
+}
+
+.content__title {
+    margin-top: 0;
+}
+
+.content__text {
+    margin: 0.5rem 0;
+}
+
+.order {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.order__title {
+    margin: 0;
+    cursor: pointer;
+}
+
+.order__date,
+.order__status {
+    margin: 0.5rem 0;
+}
+
+.order__details {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+    display:none
+}
+/* Стилі для загального контейнера і поля */
+.personal-info__field {
+    margin-bottom: 1rem;
+}
+
+.personal-info__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.personal-info__input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Стилі для кнопок */
+.personal-info__button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(223, 30, 30);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.personal-info__button:hover {
+    background-color: #0056b3;
+}
+
+/* Стилі для стану редагування */
+.personal-info__input.editable {
+    border: 1px solid #007bff;
+}
+
+.personal-info__button.save {
+    background-color: #28a745;
+}
+
+.personal-info__button.save:hover {
+    background-color: #218838;
+}
+
+/* Стилі для стану неактивного поля */
+.personal-info__input[readonly] {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+}
+.update-subscriptions{
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(223, 30, 30);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}

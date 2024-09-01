@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Shop</title>
+    <title>Document</title>
     <link rel="stylesheet" href="/css/css/styles.css">
+    <link rel="stylesheet" href="/css/css/subcategorie.css">
 </head>
 <body>
     <header class="header">
@@ -101,33 +102,62 @@
             </div>
         </div>
     </header>
-<main>
-    <!-- Основний контент  -->
-<!-- Карусель -->
-<div class="carousel">
-    <div class="carousel__wrapper">
-      <div class="carousel__item">
-        <img src="/images/banner1.jpg" alt="Banner 1" class="carousel__image">
-      </div>
-      <div class="carousel__item">
-        <img src="/images/banner2.jpg" alt="Banner 2" class="carousel__image">
-      </div>
-      <div class="carousel__item">
-        <img src="/images/banner3.jpg" alt="Banner 3" class="carousel__image">
-      </div>
-      <!-- Банери -->
-    </div>
-    <button class="carousel__control carousel__control--prev">‹</button>
-    <button class="carousel__control carousel__control--next">›</button>
-  </div>
-  <section id="popular-products" class="popular-products">
-    <h2 class="popular-products__title">Популярні товари</h2>
-    <div class="popular-products__grid">
-        <!-- Карточки товаров будут добавлены динамически через JavaScript -->
-    </div>
-</section>
-</main>
-    <!-- Модальне вікно для 'Особистий кабінет' -->
+    <main>
+        <div class="page">
+            <div class="page__top">
+                <div class="page__title">
+                    <h1>Мобільні Телефони</h1>
+                </div>
+                <div class="page__sort">
+                    <label for="sort-price" class="sort__label">Сортувати по ціні:</label>
+                    <select id="sort-price" class="sort__select">
+                        <option value="asc">Дешеві</option>
+                        <option value="desc">Дорогі</option>
+                    </select>
+                </div>
+            </div>
+            <div class="page__content">
+                <div class="filters">
+                    <div class="filter">
+                        <label for="type">Тип:</label>
+                        <select id="type">
+                            <option value="">Виберіть тип</option>
+                            <option value="Мобільний телефон">Мобільний телефон</option>
+                            
+                            <!-- Інші -->
+                        </select>
+                    </div>
+                
+                    <!-- Фільтр по виробникам-->
+                    <div class="filter">
+                        <label for="manufacturer">Виробник:</label>
+                        <select id="manufacturer">
+                            <option value="">Виберіть виробника</option>
+                            <option value="Tecno">Tecno</option>
+                            <option value="2E">2E</option>
+                            <option value="Alcatel">Alcatel</option>
+
+                            <!-- Інші виробники -->
+                        </select>
+                    </div>
+                    
+                    <!-- Фільтр по ціні -->
+                    <div class="filter">
+                        <label for="price-range">Ціновий діапазон:</label>
+                        <input type="range" id="price-range" min="0" max="200000" step="1000">
+                        <div>
+                            <input type="number" id="min-price" placeholder="Від" min="0">
+                            <input type="number" id="max-price" placeholder="До" min="0">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-grid" id="product-grid">
+                    <!-- Карточки товарів -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Модальное окно для 'Особистий кабінет' -->
     <div id="account-modal" class="modal">
         <div class="modal-content">
             <span class="close-button" id="close-button">&times;</span>
@@ -167,7 +197,9 @@
             </div>
         </div>
     </div>
-
+    <footer>
+        <!-- Футер -->
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuid.min.js"></script>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
@@ -175,8 +207,8 @@
 <script type="text/javascript">
 
 </script>
-    <script src="script.js"></script>
-  
+    <script src="/script.js"></script>
+    <script src="/phones.js"></script>
+    <script src="/btn.js"></script> 
 </body>
 </html>
-

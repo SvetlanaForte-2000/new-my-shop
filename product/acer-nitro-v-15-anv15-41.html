@@ -1,13 +1,17 @@
+
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Shop</title>
+    <title>Ноутбук Acer Nitro V 15 ANV15-41</title>
     <link rel="stylesheet" href="/css/css/styles.css">
+    <link rel="stylesheet" href="/css/css/product-card.css">
 </head>
 <body>
-    <header class="header">
+   <header class="header">
         <div class="header-top">
             <div class="container">
                 <nav class="header-top-nav">
@@ -30,7 +34,7 @@
                 <div class="header-bottom">
                  
                         <div class="header-bottom-content">
-                            <a href="./index.html" class="logo">
+                            <a href="/index.html" class="logo">
                                 <img src="/images/free-icon-circle-button-458511 (1).png" alt="Логотип" />
                             </a>
                             <nav class="header-bottom-nav">
@@ -78,7 +82,7 @@
                                     </li>
                                     <li> <!-- Корзина -->
                                         <button id="cart-icon" aria-label="Корзина">
-                                            <img src="images/basket.png" alt="Корзина" />
+                                            <img src="/images/basket.png" alt="Корзина" />
                                         </button>
                                     
                                         <!-- Контейнер корзини -->
@@ -101,34 +105,116 @@
             </div>
         </div>
     </header>
-<main>
-    <!-- Основний контент  -->
-<!-- Карусель -->
-<div class="carousel">
-    <div class="carousel__wrapper">
-      <div class="carousel__item">
-        <img src="/images/banner1.jpg" alt="Banner 1" class="carousel__image">
-      </div>
-      <div class="carousel__item">
-        <img src="/images/banner2.jpg" alt="Banner 2" class="carousel__image">
-      </div>
-      <div class="carousel__item">
-        <img src="/images/banner3.jpg" alt="Banner 3" class="carousel__image">
-      </div>
-      <!-- Банери -->
+    <div class="product-card">
+        <!-- Вкладки зверху -->
+        <ul class="tabs__menu">
+            <li class="tabs__menu-item active" data-tab="tab-1">Усе про товар</li>
+            <li class="tabs__menu-item" data-tab="tab-2">Характеристики</li>
+            <li class="tabs__menu-item" data-tab="tab-3">Відгуки</li>
+            <li class="tabs__menu-item" data-tab="tab-4">Питання </li>
+            <li class="tabs__menu-item" data-tab="tab-5">Відео</li>
+            <li class="tabs__menu-item" data-tab="tab-6">Купують разом</li>
+        </ul>
+   
+        <!-- Основна ынформація: зображення та інфо-->
+        <div class="product-card__main">
+            <div class="product-card__image">
+                  <img src="https://i.moyo.ua/img/products/5830/71_600.jpg" alt="Product Image">
+            </div>
+            <div class="product-card__info">
+                <h2 class="product-card__title">Ноутбук Acer Nitro V 15 ANV15-41</h2>
+                <p class="product-card__price">38420</p>
+                <p class="product-card__description">undefined</p>
+                <div class="product-card__actions">
+                    <button class="product-card__buy-btn" data-id="acer-nitro-v-15">Купити</button>
+                    <button class="product-card__wishlist-button">Бажання</button>
+                </div>
+            </div>
+        </div>
+   
+        <!-- Вкладки знизу-->
+        <div class="tabs__content">
+            <div id="tab-1" class="tab-content active">
+                <p> "Усе про товар".</p>
+               
+            </div>
+            <div id="tab-2" class="tab-content">
+                <p>Характеристики:</p>
+                <div id="subcategory-container">
+                    <table id="characteristics-table">
+                        <thead>
+                            <tr>
+                                <th>Назва харектиристики</th>
+                                <th>Значення харектиристики</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        
+                            <tr>
+                                <td>Вид</td>
+                                <td>Ігровий</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Виробник</td>
+                                <td>Acer</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Процесор</td>
+                                <td>AMD Ryzen 7</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>RAM</td>
+                                <td>16 GB</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Оперативна пам'ять (об'єм)</td>
+                                <td>1 TB SSD</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Дисплей</td>
+                                <td>15.6 дюймов Full HD</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Гарантія, міс.</td>
+                                <td>12 місяців</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Країна-виробник</td>
+                                <td>Китай</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Колір</td>
+                                <td>Чорний</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="tab-3" class="tab-content">
+                <p>Вкладка"Відгуки".</p>
+            </div>
+            <div id="tab-4" class="tab-content">
+                <p>Вкладка"Питання".</p>
+            </div>
+            <div id="tab-5" class="tab-content">
+                <p>Вкладка "Відео".</p>
+            </div>
+            <div id="tab-6" class="tab-content">
+                <p>"Купують разом".</p>
+            </div>
+        </div>
     </div>
-    <button class="carousel__control carousel__control--prev">‹</button>
-    <button class="carousel__control carousel__control--next">›</button>
-  </div>
-  <section id="popular-products" class="popular-products">
-    <h2 class="popular-products__title">Популярні товари</h2>
-    <div class="popular-products__grid">
-        <!-- Карточки товаров будут добавлены динамически через JavaScript -->
-    </div>
-</section>
-</main>
-    <!-- Модальне вікно для 'Особистий кабінет' -->
-    <div id="account-modal" class="modal">
+     <!-- Модальне вікно для 'Особистий кабінет' -->
+     <div id="account-modal" class="modal">
         <div class="modal-content">
             <span class="close-button" id="close-button">&times;</span>
             <div class="modal-tabs">
@@ -167,16 +253,13 @@
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuid.min.js"></script>
+    <footer></footer>
+     <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuid.min.js"></script>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
-<script type="text/javascript">
-
-</script>
-    <script src="script.js"></script>
-  
+    <script src="/product-card.js"></script>
+    <script src="/script.js"></script>
+    <script src="/btn.js"></script>
 </body>
 </html>
-

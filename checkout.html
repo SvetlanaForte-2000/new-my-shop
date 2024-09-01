@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="/css/css/checkout.css">
+</head>
+<body>
+    <div class="checkout">
+        <div class="checkout__container">
+            <div class="checkout__information">
+                <!-- Шаг 1: Контактні дані -->
+                <div class="checkout__step checkout__step--contact" id="contact-step">
+                    <h1 class="checkout__title">Контактні дані</h1>
+                    <form class="checkout__form" id="contact-form">
+                        <fieldset class="checkout__fieldset">
+                            <legend class="checkout__legend">Контактні дані</legend>
+                            <p class="checkout__contact-info">
+                                
+                                <button type="button" class="checkout__edit-button"  aria-label="Змінити контактні дані">Змінити</button>
+                            </p>
+                            <label class="checkout__label" for="user-name">Ім'я:</label>
+                            <input class="checkout__input" type="text" id="user-name" name="name" required>
+                            
+                            <label class="checkout__label" for="user-email">Email:</label>
+                            <input class="checkout__input" type="email" id="user-email" name="email" required>
+                            
+                            <label class="checkout__label" for="user-phone">Телефон:</label>
+                            <input class="checkout__input" type="tel" id="user-phone" name="phone" required>
+                        </fieldset>
+                        
+                        <button class="checkout__next" type="button" onclick="showStep('delivery-step')">Далі</button>
+                    </form>
+                </div>
+
+                <!-- Шаг 2: Доставка -->
+                <div class="checkout__step checkout__step--delivery hidden" id="delivery-step">
+                    <h1 class="checkout__title">Доставка</h1>
+                    <form class="checkout__form" id="delivery-form">
+                        <fieldset class="checkout__fieldset">
+                            <legend class="checkout__legend">Адреса доставки</legend>
+                            <label class="checkout__label" for="delivery-method">Виберіть спосіб доставки:</label>
+                            <select class="checkout__select" id="delivery-method" name="delivery-method" onchange="toggleDeliveryOptions()" required>
+                                <option value="" disabled selected>Виберіть спосіб доставки</option>
+                                <option value="nova-poshta">З відділення "Нова Пошта"</option>
+                                <option value="store">З магазину</option>
+                                <option value="address">Доставка за адресою</option>
+                            </select>
+
+                            <!--Доставка за адресою -->
+                            <div class="checkout__address-info hidden" id="address-info">
+                                <label class="checkout__label" for="address">Адреса:</label>
+                                <input class="checkout__input" type="text" id="address" name="address">
+                                
+                                <label class="checkout__label" for="city">Місто:</label>
+                                <input class="checkout__input" type="text" id="city" name="city">
+                                
+                                <label class="checkout__label" for="postal-code">Поштовий індекс:</label>
+                                <input class="checkout__input" type="text" id="postal-code" name="postal-code">
+                            </div>
+
+                            <!-- Доставка Нова Пошта -->
+                            <div class="checkout__nova-poshta hidden">
+                                <h3>З відділення "Нова Пошта"</h3>
+                                <p>Забрати післязавтра</p>
+                                <p class="checkout__delivery-cost">БЕЗКОШТОВНО</p>
+
+                                <div class="checkout__recipient-info">
+                                    <label for="last-name">Прізвище</label>
+                                    <input type="text" id="last-name" name="last-name" placeholder="Введіть прізвище" required>
+
+                                    <label for="first-name">Ім'я</label>
+                                    <input type="text" id="first-name" name="first-name" placeholder="Введіть ім'я" required>
+
+                                    <label for="middle-name">По Батькові</label>
+                                    <input type="text" id="middle-name" name="middle-name" placeholder="Введіть по батькові" required>
+                                </div>
+                                <div class="checkout__nova-poshta-select">
+                                    <label for="nova-poshta-city-search">Виберіть місто</label>
+                                    <input type="text" id="nova-poshta-city-search" class="search-input" placeholder="Введіть місто">
+                                    <div id="nova-poshta-city-dropdown" class="dropdown"></div>
+                                </div>
+                            
+                                <div class="checkout__nova-poshta-select">
+                                    <label for="nova-poshta-branch-search">Виберіть відділення</label>
+                                    <input type="text" id="nova-poshta-branch-search" class="search-input" placeholder="Введіть відділення">
+                                    <div id="nova-poshta-branch-dropdown" class="dropdown"></div>
+                                </div>
+                            
+                            </div>
+                        </fieldset>
+                        
+                        <button class="checkout__next" type="button" onclick="showStep('payment-step')">Далі</button>
+                    </form>
+                </div>
+
+                <!-- Шаг 3: Оплата -->
+                <div class="checkout__step checkout__step--payment hidden" id="payment-step">
+                    <h1 class="checkout__title">Оплата</h1>
+                    <form class="checkout__form" id="payment-form">
+                        <fieldset class="checkout__fieldset">
+                            <legend class="checkout__legend">Оплата</legend>
+                            <div class="checkout__payment-options">
+                                <p class="checkout__payment-option">
+                                    <input type="radio" id="payment-on-delivery" name="payment-method" value="on-delivery" required>
+                                    <label for="payment-on-delivery">Оплата під час отримання</label>
+                                    <span class="checkout__payment-description">
+                                        Ви можете оплатити замовлення готівкою, банківською картою або онлайн при отриманні
+                                    </span>
+                                </p>
+                
+                                <p class="checkout__payment-option">
+                                    <input type="radio" id="payment-privatpay" name="payment-method" value="PrivatPay">
+                                    <label for="payment-privatpay">PrivatPay</label>
+                                </p>
+                
+                                <p class="checkout__payment-option">
+                                    <input type="radio" id="payment-googlepay" name="payment-method" value="GooglePay">
+                                    <label for="payment-googlepay">GooglePay</label>
+                                </p>
+                
+                                <p class="checkout__payment-option">
+                                    <input type="radio" id="payment-visa-mastercard" name="payment-method" value="Visa/MasterCard">
+                                    <label for="payment-visa-mastercard">Visa / MasterCard</label>
+                                </p>
+                
+                                <p class="checkout__payment-option">
+                                    <input type="radio" id="payment-portmone" name="payment-method" value="Portmone">
+                                    <label for="payment-portmone">Portmone.com</label>
+                                </p>
+                
+                                <p class="checkout__payment-option">
+                                    <input type="radio" id="payment-credit" name="payment-method" value="Credit">
+                                    <label for="payment-credit">Кредит або оплата частинами</label>
+                                </p>
+                            </div>
+                        </fieldset>
+
+                        <div class="checkout__comments">
+                            <label class="checkout__label" for="order-comments">Коментарі до замовлення:</label>
+                            <textarea class="checkout__input" id="order-comments" name="order-comments" rows="4"></textarea>
+
+                            <label class="checkout__label">
+                                <input class="checkout__checkbox" type="checkbox" id="no-call" name="no-call">
+                                Не дзвоніть мені, я впевнений в замовленні.
+                                Оформлення заявки без дзвінка менеджера. Інформацію про статус замовлення ви отримаєте через Viber (або SMS) і на вашу електронну пошту.
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="checkout__order-info">
+                <h2 class="checkout__order-title">Інформація про замовлення</h2>
+                
+                <!-- Місце для динамічного додавання інформації про товар -->
+                <div id="order-items-container" class="checkout__order-items">
+                    <!-- Тут додаватимуться елементи замовлення -->
+                </div>
+                
+                <!--Секція з промокодом -->
+                <div class="checkout__promo-section">
+                    <label class="checkout__promo-label" for="promo-code">Введіть промокод:</label>
+                    <input class="checkout__promo-input" type="text" id="promo-code" name="promo-code">
+                    <button class="checkout__promo-button" id="apply-promo">Застосувати</button>
+                </div>
+                
+                <!-- Підсумкова інформація -->
+                <div class="checkout__summary">
+                    
+                   
+                    <label for="bonus-input">Оплата бонусами:</label>
+<input type="number" id="bonus-input" value="0" min="0">
+
+                    
+                    <p class="checkout__summary-item">Доставка: <span class="checkout__summary-amount">Безкоштовно</span></p>
+                    <p class="checkout__summary-total">Всього до оплати: <span class="checkout__summary-amount" id="total-to-pay">0 грн</span></p>
+                </div>
+                
+                <!-- Кнопка оформлення замовлення -->
+                <button class="checkout__button" type="submit">Оформити замовлення</button>
+            </div>
+        </div>   
+    </div> 
+
+    <script src="/checkout.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
+

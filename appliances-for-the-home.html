@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Shop</title>
-    <link rel="stylesheet" href="/css/css/styles.css">
+    <title>Категорії</title>
+    <link rel="stylesheet" href="css/css/category.css">
+    <link rel="stylesheet" href="css/css/styles.css">
 </head>
 <body>
     <header class="header">
@@ -101,34 +102,46 @@
             </div>
         </div>
     </header>
-<main>
-    <!-- Основний контент  -->
-<!-- Карусель -->
-<div class="carousel">
-    <div class="carousel__wrapper">
-      <div class="carousel__item">
-        <img src="/images/banner1.jpg" alt="Banner 1" class="carousel__image">
-      </div>
-      <div class="carousel__item">
-        <img src="/images/banner2.jpg" alt="Banner 2" class="carousel__image">
-      </div>
-      <div class="carousel__item">
-        <img src="/images/banner3.jpg" alt="Banner 3" class="carousel__image">
-      </div>
-      <!-- Банери -->
-    </div>
-    <button class="carousel__control carousel__control--prev">‹</button>
-    <button class="carousel__control carousel__control--next">›</button>
-  </div>
-  <section id="popular-products" class="popular-products">
-    <h2 class="popular-products__title">Популярні товари</h2>
-    <div class="popular-products__grid">
-        <!-- Карточки товаров будут добавлены динамически через JavaScript -->
-    </div>
-</section>
-</main>
-    <!-- Модальне вікно для 'Особистий кабінет' -->
-    <div id="account-modal" class="modal">
+
+    <main>
+        <div class="container">
+            <h1>Техніка для дому</h1>
+            <ul class="subcategory-list">
+                <li class="subcategory-item">
+                    <a href="/refrigerators.html">
+                        <div class="subcategory-image">
+                            <img src="/images/Freez.jpg" alt="Холодильники">
+                        </div>
+                        <h2>Холодильники</h2>
+                    </a>
+                </li>
+                <li class="subcategory-item">
+                    <a href="/tv.html">
+                        <div class="subcategory-image">
+                            <img src="/images/TV.jpg" alt="Телевізори">
+                        </div>
+                        <h2>Телевізори</h2>
+                    </a>
+                </li>
+                <li class="subcategory-item">
+                    <a href="/washing-machines.html">
+                        <div class="subcategory-image">
+                            <img src="/images/Wash.jpg" alt="Пральні машини">
+                        </div>
+                        <h2>Пральні машини</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section id="popular-products" class="popular-products">
+            <h2 class="popular-products__title">Популярні товари</h2>
+            <div class="popular-products__grid">
+                <!-- Карточки товарів через JavaScript -->
+            </div>
+        </section>
+    </main>
+     <!-- Модальне вікно для 'Особистий кабінет' -->
+     <div id="account-modal" class="modal">
         <div class="modal-content">
             <span class="close-button" id="close-button">&times;</span>
             <div class="modal-tabs">
@@ -167,7 +180,9 @@
             </div>
         </div>
     </div>
-
+    <footer>
+        <!-- Футер -->
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuid.min.js"></script>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
@@ -175,8 +190,7 @@
 <script type="text/javascript">
 
 </script>
-    <script src="script.js"></script>
-  
+    <script src="/script.js"></script>
+    <script src="/subcategories.js"></script>
 </body>
 </html>
-

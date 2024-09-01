@@ -1,0 +1,1321 @@
+{
+  "smartphones": [
+    {
+      "id": "samsung-galaxy-a34-5g",
+      "name": "Смартфон Samsung Galaxy A34 5G 8/256GB Black",
+      "photo": "https://i.moyo.ua/img/products/5373/59_600.jpg",
+      "price": 11600.00,
+      "characteristics": {
+        "type": "Смартфон",
+        "manufacturer": "Samsung",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Nano",
+        "builtInMemory": "256 GB",
+        "purpose": "Основний",
+        "displayDiagonal": "6.5 дюймів",
+        "displayMatrixType": "Super AMOLED",
+        "processor": "MediaTek Dimensity 1080",
+        "processorCores": "8",
+        "numberOfCameras": "3",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "5000 мАг",
+        "chargingTechnology": "Fast Charging 25W",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Південна Корея",
+      
+        "width": "77.2 мм",
+        "height": "161.3 мм",
+        "thickness": "8.2 мм",
+        "weight": "199 г",
+       
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "apple-iphone-15-pro-max",
+      "name": "Смартфон Apple iPhone 15 Pro Max 256GB Natural Titanium",
+      "photo": "https://i.moyo.ua/img/products/5495/66_600.jpg",
+      "price": 71000.00,
+      "characteristics": {
+        "type": "Смартфон",
+        "manufacturer": "Apple",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Nano",
+        "builtInMemory": "256 GB",
+        "purpose": "Основний",
+        "displayDiagonal": "6.7 дюймів",
+        "displayMatrixType": "Super Retina XDR",
+        "processor": "Apple A17 Pro",
+        "processorCores": "6",
+        "numberOfCameras": "3",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "4323 мАг",
+        "chargingTechnology": "MagSafe 15W",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "США",
+        
+        "width": "79.6 мм",
+        "height": "159.8 мм",
+        "thickness": "8.25 мм",
+        "weight": "221 г",
+       
+        "color": "Натуральний титановий"
+      }
+    },
+    {
+      "id": "apple-iphone-15-pro",
+      "name": "Смартфон Apple iPhone 15 Pro 512GB Black Titanium",
+      "photo": "https://i.moyo.ua/img/products/5495/55_600.jpg",
+      "price": 52100.00,
+      "characteristics": {
+        "type": "Смартфон",
+        "manufacturer": "Apple",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Nano",
+        "builtInMemory": "512 GB",
+        "purpose": "Основний",
+        "displayDiagonal": "6.1 дюймів",
+        "displayMatrixType": "Super Retina XDR",
+        "processor": "Apple A17 Pro",
+        "processorCores": "6",
+        "numberOfCameras": "3",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "3279 мАг",
+        "chargingTechnology": "MagSafe 15W",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "США",  
+        "width": "71.9 мм",
+        "height": "147.5 мм",
+        "thickness": "8.25 мм",
+        "weight": "221 г",  
+        "color": "Чорний титановий"
+      }
+    },
+    {
+      "id": "apple-iphone-13",
+      "name": "Смартфон Apple iPhone 13 256GB White",
+      "photo": "https://i.moyo.ua/img/products/4988/92_600.jpg",
+      "price": 24800.00,
+      "characteristics": {
+        "type": "Смартфон",
+        "manufacturer": "Apple",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Nano",
+        "builtInMemory": "256 GB",
+        "purpose": "Основний",
+        "displayDiagonal": "6.1 дюймів",
+        "displayMatrixType": "Super Retina XDR",
+        "processor": "Apple A15 Bionic",
+        "processorCores": "6",
+        "numberOfCameras": "2",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "3095 мАг",
+        "chargingTechnology": "MagSafe 15W",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "США",
+        "width": "71.5 мм",
+          "height": "146.7 мм",
+          "thickness": "7.65 мм",
+          "weight": "174 г",
+        "color": "Білий"
+      }
+    },
+    {
+      "id": "samsung-galaxy-fold-6",
+      "name": "Смартфон Galaxy Fold 6 1TB Silver Shadow",
+      "photo": "https://i.moyo.ua/img/products/5910/4_600.jpg?1720706703",
+      "price": 69900.00,
+      "characteristics": {
+        "type": "Смартфон складний",
+        "manufacturer": "Samsung",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Nano",
+        "builtInMemory": "1 TB",
+        "purpose": "Основний",
+        "displayDiagonal": "7.6 дюймів",
+        "displayMatrixType": "Dynamic AMOLED 2X",
+        "processor": "Qualcomm Snapdragon 8 Gen 2",
+        "processorCores": "8",
+        "numberOfCameras": "3",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "4400 мАг",
+        "chargingTechnology": "Fast Charging 25W",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Південна Корея",
+          "width": "130.1 мм",
+          "height": "154.9 мм",
+          "thickness": "6.2 мм (в складеному вигляді)",
+          "weight": "263 г",
+        "color": "Сріблястий"
+      }
+    },
+    {
+      "id": "samsung-galaxy-flip-6",
+      "name": "Смартфон Galaxy Flip 6 512GB Blue",
+      "photo": "https://i.moyo.ua/img/products/5910/14_4000.jpg?1720778215",
+      "price": 51000.00,
+      "characteristics": {
+        "type": "Смартфон складний",
+        "manufacturer": "Samsung",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Nano",
+        "builtInMemory": "512 GB",
+        "purpose": "Основний",
+        "displayDiagonal": "6.7 дюймів",
+        "displayMatrixType": "Dynamic AMOLED 2X",
+        "processor": "Qualcomm Snapdragon 8 Gen 2",
+        "processorCores": "8",
+        "numberOfCameras": "2",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "3700 мАг",
+        "chargingTechnology": "Fast Charging 25W",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Південна Корея",
+        "width": "71.9 мм",
+        "height": "165.2 мм",
+        "thickness": "15.9 мм (в складеному вигляді)",
+        "weight": "219 г",
+        "color": "Синій"
+      }
+    },
+    {
+      "id": "samsung-galaxy-s24-ultra",
+      "name": "Смартфон Samsung Galaxy S24 Ultra 12/512GB Titanium Violet",
+      "photo": "https://i.moyo.ua/img/products/5698/51_4000.jpg",
+      "price": 49840.00,
+      "characteristics": {
+        "type": "Смартфон",
+        "manufacturer": "Samsung",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Nano",
+        "builtInMemory": "512 GB",
+        "purpose": "Основний",
+        "displayDiagonal": "6.8 дюймів",
+        "displayMatrixType": "Dynamic AMOLED 2X",
+        "processor": "Qualcomm Snapdragon 8 Gen 3",
+        "processorCores": "8",
+        "numberOfCameras": "4",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "5000 мАг",
+        "chargingTechnology": "Fast Charging 45W",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Південна Корея",
+          "width": "78.1 мм",
+          "height": "163.4 мм",
+          "thickness": "8.6 мм",
+          "weight": "233 г",
+        "color": "Титанова фіолетова"
+      }
+    },
+    {
+      "id": "apple-iphone-xi",
+      "name": "Смартфон Apple iPhone XI 64GB White",
+      "photo": "https://i.moyo.ua/img/products/4524/66_600.jpg",
+      "price": 29200.00,
+      "characteristics": {
+        "type": "Смартфон",
+        "manufacturer": "Apple",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Nano",
+        "builtInMemory": "64 GB",
+        "purpose": "Основний",
+        "displayDiagonal": "6.5 дюймів",
+        "displayMatrixType": "Super Retina",
+        "processor": "Apple A12 Bionic",
+        "processorCores": "6",
+        "numberOfCameras": "2",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "3174 мАг",
+        "chargingTechnology": "Fast Charging",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "США",
+        "width": "70.9 мм",
+        "height": "143.6 мм",
+        "thickness": "8.3 мм",
+        "weight": "194 г",
+        "color": "Білий"
+      }
+    }
+  ],
+  "Phones": [
+    {
+      "id": "tecno-t454-ds-champagne-gold",
+      "name": "Мобільний телефон Tecno T454 DS Champagne Gold",
+      "photo": "https://i.moyo.ua/img/products/4803/41_4000.jpg",
+      "price": 930.00,
+      "characteristics": {
+        "type": "Мобільний телефон",
+        "manufacturer": "Tecno",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Mini",
+        "builtInMemory": "64 MB",
+        "purpose": "Основний",
+        "displayDiagonal": "2.8 дюймів",
+        "displayMatrixType": "TFT",
+        "processor": "Spreadtrum SC6531E",
+        "processorCores": "1",
+        "numberOfCameras": "1",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "1750 мАг",
+        "chargingTechnology": "Micro-USB",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "width": "53.6 мм",
+        "height": "119.2 мм",
+        "thickness": "13.5 мм",
+        "weight": "107 г",
+        "color": "Золотий"
+      }
+    },
+    {
+      "id": "2e-e240-power-ds-black",
+      "name": "Мобільний телефон 2E E240 Power DS Black",
+      "photo": "https://i.moyo.ua/img/products/4743/2_4000.jpg",
+      "price": 590.00,
+      "characteristics": {
+        "type": "Мобільний телефон",
+        "manufacturer": "2E",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Mini",
+        "builtInMemory": "32 MB",
+        "purpose": "Основний",
+        "displayDiagonal": "2.4 дюймів",
+        "displayMatrixType": "TFT",
+        "processor": "Spreadtrum SC6531E",
+        "processorCores": "1",
+        "numberOfCameras": "1",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "1800 мАг",
+        "chargingTechnology": "Micro-USB",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "width": "54 мм",
+        "height": "117 мм",
+        "thickness": "14 мм",
+        "weight": "95 г",
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "tecno-t454-ds-black",
+      "name": "Мобільний телефон Tecno T454 DS Black",
+      "photo": "https://i.moyo.ua/img/products/4803/39_4000.jpg",
+      "price": 650.00,
+      "characteristics": {
+        "type": "Мобільний телефон",
+        "manufacturer": "Tecno",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Mini",
+        "builtInMemory": "64 MB",
+        "purpose": "Основний",
+        "displayDiagonal": "2.8 дюймів",
+        "displayMatrixType": "TFT",
+        "processor": "Spreadtrum SC6531E",
+        "processorCores": "1",
+        "numberOfCameras": "1",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "1750 мАг",
+        "chargingTechnology": "Micro-USB",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "width": "53.6 мм",
+        "height": "119.2 мм",
+        "thickness": "13.5 мм",
+        "weight": "107 г",
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "tecno-t301-ds-light-blue",
+      "name": "Мобільний телефон Tecno T301 DS Light Blue",
+      "photo": "https://i.moyo.ua/img/products/4572/45_4000.jpg",
+      "price": 810.00,
+      "characteristics": {
+        "type": "Мобільний телефон",
+        "manufacturer": "Tecno",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Mini",
+        "builtInMemory": "32 MB",
+        "purpose": "Основний",
+        "displayDiagonal": "2.4 дюймів",
+        "displayMatrixType": "TFT",
+        "processor": "Spreadtrum SC6531E",
+        "processorCores": "1",
+        "numberOfCameras": "1",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "1200 мАг",
+        "chargingTechnology": "Micro-USB",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "width": "50.5 мм",
+        "height": "113 мм",
+        "thickness": "13.2 мм",
+        "weight": "78 г",
+        "color": "Світло-блакитний"
+      }
+    },
+    {
+      "id": "alcatel-2003",
+      "name": "Мобільний телефон Alcatel 2003D Dark Gray",
+      "photo": "https://i.moyo.ua/img/products/4734/71_4000.jpg",
+      "price": 1299.00,
+      "characteristics": {
+        "type": "Мобільний телефон",
+        "manufacturer": "Alcatel",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Mini",
+        "builtInMemory": "32 MB",
+        "purpose": "Основний",
+        "displayDiagonal": "2.4 дюймів",
+        "displayMatrixType": "TFT",
+        "processor": "MTK 6261",
+        "processorCores": "1",
+        "numberOfCameras": "1",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "1400 мАг",
+        "chargingTechnology": "Micro-USB",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "width": "52 мм",
+        "height": "108 мм",
+        "thickness": "14.5 мм",
+        "weight": "84 г",
+        "color": "Темно-сірий"
+      }
+    },
+    {
+      "id": "alcatel-2053",
+      "name": "Мобільний телефон Alcatel 2053D Volcano Black",
+      "photo": "https://i.moyo.ua/img/products/4734/75_4000.jpg",
+      "price": 780.00,
+      "characteristics": {
+        "type": "Мобільний телефон",
+        "manufacturer": "Alcatel",
+        "numberOfSIMs": "2",
+        "SIMCardFormat": "Mini",
+        "builtInMemory": "32 MB",
+        "purpose": "Основний",
+        "displayDiagonal": "2.8 дюймів",
+        "displayMatrixType": "TFT",
+        "processor": "MTK 6261",
+        "processorCores": "1",
+        "numberOfCameras": "1",
+        "batteryType": "Li-Ion",
+        "batteryCapacity": "1400 мАг",
+        "chargingTechnology": "Micro-USB",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "width": "56 мм",
+        "height": "118 мм",
+        "thickness": "13.9 мм",
+         "weight": "90 г",
+        "color": "Чорний"
+      }
+    }
+  ],
+
+  "Headphones": [
+    {
+      "id": "apple-airpods-3rd-generation",
+      "name": "Навушники Apple AirPods 3rd Generation with Lightning Charging Case",
+      "photo": "https://i.moyo.ua/img/products/5241/70_4000.jpg",
+      "price": 7560.00,
+      "characteristics": {
+        "type": "Bluetooth ",
+        "manufacturer": "Apple",
+        "purpose": "Основний",
+        "connectionType": "Lightning",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Білий"
+      }
+    },
+    {
+      "id": "sony-wh-1000xm5",
+      "name": "в Bluetooth Sony WH-1000XM5 Black",
+      "photo": "https://i.moyo.ua/img/products/5252/56_4000.jpg",
+      "price": 3100.00,
+      "characteristics": {
+        "type": "Bluetooth ",
+        "manufacturer": "Sony",
+        "purpose": "Основний",
+        "connectionType": "Bluetooth",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "jbl-tune-flex",
+      "name": "в JBL Tune Flex Black",
+      "photo": "https://i.moyo.ua/img/products/5737/24_4000.jpg",
+      "price": 2420.00,
+      "characteristics": {
+        "type": "Bluetooth ",
+        "manufacturer": "JBL",
+        "purpose": "Основний",
+        "connectionType": "Bluetooth",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "jbl-t110",
+      "name": "в JBL T110 Black",
+      "photo": "https://i.moyo.ua/img/products/4167/49_4000.jpg",
+      "price": 2120.00,
+      "characteristics": {
+        "type": "в",
+        "manufacturer": "JBL",
+        "purpose": "Основний",
+        "connectionType": "Провідний",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "sony-whult900nb",
+      "name": "в Bluetooth Sony Over-Ear Ult Wear Black",
+      "photo": "https://i.moyo.ua/img/products/5822/39_4000.jpg",
+      "price": 3240.00,
+      "characteristics": {
+        "type": "Bluetooth в",
+        "manufacturer": "Sony",
+        "purpose": "Основний",
+        "connectionType": "Bluetooth",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "apple-airpods-charging-case",
+      "name": "Навушники Apple AirPods with Charging Case",
+      "photo": "https://i.moyo.ua/img/products/5028/69_4000.jpg",
+      "price": 5600.00,
+      "characteristics": {
+        "type": "Bluetooth в",
+        "manufacturer": "Apple",
+        "purpose": "Основний",
+        "connectionType": "Lightning",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Білий"
+      }
+    },
+    {
+      "id": "panasonic-rz-b110w",
+      "name": "в Panasonic RZ-B110W IPX4 Black",
+      "photo": "https://i.moyo.ua/img/products/5557/81_600.jpg",
+      "price": 2880.00,
+      "characteristics": {
+        "type": "Bluetooth навушники",
+        "manufacturer": "Panasonic",
+        "purpose": "Основний",
+        "connectionType": "Bluetooth",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "philips-tat1207",
+      "name": "в Philips TAT1207 True Wireless IPX4 Black",
+      "photo": "https://i.moyo.ua/img/products/5216/28_600.jpg",
+      "price": 2060.00,
+      "characteristics": {
+        "type": "Bluetooth в",
+        "manufacturer": "Philips",
+        "purpose": "Основний",
+        "connectionType": "Bluetooth",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Чорний"
+      }
+    }
+  ],
+  "Laptops": [
+    {
+      "id": "hp-victus-15-fa0021ua",
+      "name": "Ноутбук HP Victus 15-FA0021UA",
+      "photo": "https://i.moyo.ua/img/products/5503/42_4000.jpg",
+      "price": 31600.00,
+      "characteristics": {
+        "type": "Для роботи",
+        "manufacturer": "HP",
+        "processor": "Intel Core i5",
+        "RAM": "8 GB",
+        "storage": "512 GB SSD",
+        "display": "15.6 дюймов Full HD",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "hp-14-ep0021ua",
+      "name": "Ноутбук HP 14-EP0021UA",
+      "photo": "https://i.moyo.ua/img/products/5503/39_600.jpg",
+      "price": 23900.00,
+      "characteristics": {
+        "type": "Для роботи",
+        "manufacturer": "HP",
+        "processor": "AMD Ryzen 3",
+        "RAM": "8 GB",
+        "storage": "256 GB SSD",
+        "display": "14 дюймов Full HD",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Сірий"
+      }
+    },
+    {
+      "id": "apple-macbook-pro-14-m1-max",
+      "name": "Ноутбук Apple MacBook Pro 14 M1 Max 32/8TB Custom New",
+      "photo": "https://i.moyo.ua/img/products/5152/7_4000.jpg",
+      "price": 129490.00,
+      "characteristics": {
+        "type": "Імеджевий",
+        "manufacturer": "Apple",
+        "processor": "Apple M1 Max",
+        "RAM": "32 GB",
+        "storage": "8 TB SSD",
+        "display": "14 дюймов Retina",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "США",
+        "color": "Space Gray"
+      }
+    },
+    {
+      "id": "acer-aspire-3",
+      "name": "Ноутбук Acer Aspire 3 A315-24P",
+      "photo": "https://i.moyo.ua/img/products/5572/87_600.jpg",
+      "price": 32340.00,
+      "characteristics": {
+        "type": "Для навчання",
+        "manufacturer": "Acer",
+        "processor": "AMD Ryzen 5",
+        "RAM": "8 GB",
+        "storage": "512 GB SSD",
+        "display": "15.6 дюймов Full HD",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Сірий"
+      }
+    },
+    {
+      "id": "acer-nitro-v-15",
+      "name": "Ноутбук Acer Nitro V 15 ANV15-41",
+      "photo": "https://i.moyo.ua/img/products/5830/71_600.jpg",
+      "price": 38420.00,
+      "characteristics": {
+        "type": "Ігровий",
+        "manufacturer": "Acer",
+        "processor": "AMD Ryzen 7",
+        "RAM": "16 GB",
+        "storage": "1 TB SSD",
+        "display": "15.6 дюймов Full HD",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "asus-x1502za-bq644",
+      "name": "Ноутбук Asus X1502ZA-BQ644",
+      "photo": "https://i.moyo.ua/img/products/5306/23_600.jpg",
+      "price": 69197.00,
+      "characteristics": {
+        "type": "Для роботи",
+        "manufacturer": "Asus",
+        "processor": "Intel Core i3",
+        "RAM": "12 GB",
+        "storage": "512 GB SSD",
+        "display": "15.6 дюймов Full HD",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Синий"
+      }
+    },
+    {
+      "id": "hp-probook-470-g10",
+      "name": "Ноутбук HP ProBook 470 G10",
+      "photo": "https://i.moyo.ua/img/products/5477/72_4000.jpg",
+      "price": 47300.00,
+      "characteristics": {
+        "type": "Для навчання",
+        "manufacturer": "HP",
+        "processor": "Intel Core i5",
+        "RAM": "16 GB",
+        "storage": "512 GB SSD",
+        "display": "17.3 дюймов Full HD",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Сірий"
+      }
+    },
+    {
+      "id": "lenovo-legion-9-16irx9",
+      "name": "Ноутбук Lenovo Legion 9 16IRX9",
+      "photo": "https://i.moyo.ua/img/gallery/5821/70/2005890_zoom.jpg",
+      "price": 141750.00,
+      "characteristics": {
+        "type": "Ігровий",
+        "manufacturer": "Lenovo",
+        "processor": "Intel Core i7",
+        "RAM": "16 GB",
+        "storage": "1 TB SSD",
+        "display": "16 дюймов WQXGA",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Чорний"
+      }
+    },
+    {
+      "id": "acer-predator-helios-18",
+      "name": "Ноутбук Acer Predator Helios 18 PH18-72",
+      "photo": "https://i.moyo.ua/img/products/5945/54_600.jpg?1721978992",
+      "price": 129390.00,
+      "characteristics": {
+        "type": "Ігровий",
+        "manufacturer": "Acer",
+        "processor": "Intel Core i9",
+        "RAM": "64 GB",
+        "storage": "4 TB SSD",
+        "display": "18 дюймов WQXGA Mini-LED",
+        "warranty": "12 місяців",
+        "countryOfManufacture": "Китай",
+        "color": "Чорний"
+      }
+    }
+  ],
+ 
+      "Monitors": [
+        {
+          "id": "samsung-odyssey-g55c",
+          "name": "Монітор Samsung 27 Odyssey G55C",
+          "photo": "https://i.moyo.ua/img/products/5713/21_600.jpg",
+          "price": 3740.00,
+          "characteristics": {
+            "type": "Для ігор",
+            "manufacturer": "Samsung",
+            "screenSize": "27 дюймов",
+            "resolution": "2560x1440",
+            "refreshRate": "165Hz",
+            "responseTime": "1ms",
+            "connectionType": "HDMI, DisplayPort",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "dell-p2723qe",
+          "name": "Монітор Dell 27 P2723QE",
+          "photo": "https://i.moyo.ua/img/products/5263/20_600.jpg",
+          "price": 4100.00,
+          "characteristics": {
+            "type": "Універсальний монітор",
+            "manufacturer": "Dell",
+            "screenSize": "27 дюймов",
+            "resolution": "3840x2160",
+            "refreshRate": "60Hz",
+            "responseTime": "4ms",
+            "connectionType": "HDMI, DisplayPort, USB-C",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Сірий"
+          }
+        },
+        {
+          "id": "asus-tuf-gaming-vg259q3a",
+          "name": "Монітор Asus 24.5 TUF Gaming VG259Q3A",
+          "photo": "https://i.moyo.ua/img/products/5796/21_600.jpg?1719554518",
+          "price": 5600.00,
+          "characteristics": {
+            "type": "Для ігор",
+            "manufacturer": "Asus",
+            "screenSize": "24.5 дюймов",
+            "resolution": "1920x1080",
+            "refreshRate": "180Hz",
+            "responseTime": "1ms",
+            "connectionType": "HDMI, DisplayPort",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "samsung-s24c360e",
+          "name": "Монітор Samsung 23.8 S24C360E",
+          "photo": "https://i.moyo.ua/img/products/5463/9_600.jpeg",
+          "price": 4700.00,
+          "characteristics": {
+            "type": "Універсальний монітор",
+            "manufacturer": "Samsung",
+            "screenSize": "23.8 дюймов",
+            "resolution": "1920x1080",
+            "refreshRate": "60Hz",
+            "responseTime": "4ms",
+            "connectionType": "HDMI, VGA",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "dell-g2723h",
+          "name": "Монітор Dell 27 G2723H",
+          "photo": "https://i.moyo.ua/img/products/5311/43_600.jpg",
+          "price": 3400.00,
+          "characteristics": {
+            "type": "Для ігор",
+            "manufacturer": "Dell",
+            "screenSize": "27 дюймов",
+            "resolution": "2560x1440",
+            "refreshRate": "280Hz",
+            "responseTime": "0.5ms",
+            "connectionType": "HDMI, DisplayPort, USB-C",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "lg-32gq850-b",
+          "name": "Монітор LG 31.5 32GQ850-B",
+          "photo": "https://i.moyo.ua/img/products/5778/1_600.jpg",
+          "price": 2990.00,
+          "characteristics": {
+            "type": "Для ігор",
+            "manufacturer": "LG",
+            "screenSize": "31.5 дюймов",
+            "resolution": "2560x1440",
+            "refreshRate": "165Hz",
+            "responseTime": "1ms",
+            "connectionType": "HDMI, DisplayPort",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        }
+      ],
+      "Tablets": [
+        {
+          "id": "samsung-galaxy-tab-a9",
+          "name": "Планшет Samsung Galaxy Tab A9",
+          "photo": "https://i.moyo.ua/img/products/5588/28_600.jpg",
+          "price": 29100.00,
+          "characteristics": {
+            "type": "Планшет",
+            "manufacturer": "Samsung",
+            "screenSize": "8.7 дюймов",
+            "storage": "128 GB",
+            "RAM": "4 GB",
+            "processor": "MediaTek",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Сірий"
+          }
+        },
+        {
+          "id": "apple-ipad-10-2",
+          "name": "Планшет Apple iPad 10.2 WiFi 64GB",
+          "photo": "https://i.moyo.ua/img/products/4995/71_600.jpg",
+          "price": 37080.00,
+          "characteristics": {
+            "type": "Планшет",
+            "manufacturer": "Apple",
+            "screenSize": "10.2 дюймов",
+            "storage": "64 GB",
+            "RAM": "3 GB",
+            "processor": "Apple A13 Bionic",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Space Gray"
+          }
+        },
+        {
+          "id": "apple-ipad-pro",
+          "name": "Планшет Apple iPad Pro WiFi 13\" 1TB",
+          "photo": "https://i.moyo.ua/img/products/5828/57_600.jpg",
+          "price": 62100.00,
+          "characteristics": {
+            "type": "Планшет",
+            "manufacturer": "Apple",
+            "screenSize": "12.9 дюймов",
+            "storage": "1 TB",
+            "RAM": "8 GB",
+            "processor": "Apple M1",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Space Black"
+          }
+        },
+        {
+          "id": "apple-ipad-air",
+          "name": "Планшет Apple iPad Air WiFi 13\" 1TB",
+          "photo": "https://i.moyo.ua/img/products/5829/21_600.jpg",
+          "price": 59000.00,
+          "characteristics": {
+            "type": "Планшет",
+            "manufacturer": "Apple",
+            "screenSize": "10.9 дюймов",
+            "storage": "1 TB",
+            "RAM": "8 GB",
+            "processor": "Apple M1",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Starlight"
+          }
+        },
+        {
+          "id": "lenovo-tab-m9",
+          "name": "Планшет Lenovo Tab M9 4/64 LTE",
+          "photo": "https://i.moyo.ua/img/products/5379/80_600.jpg",
+          "price": 6400.00,
+          "characteristics": {
+            "type": "Планшет",
+            "manufacturer": "Lenovo",
+            "screenSize": "9 дюймов",
+            "storage": "64 GB",
+            "RAM": "4 GB",
+            "processor": "MediaTek",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Arctic Grey"
+          }
+        },
+        {
+          "id": "lenovo-tab-p11",
+          "name": "Планшет Lenovo Tab P11 2nd Gen 6/128 WiFi",
+          "photo": "https://i.moyo.ua/img/products/5289/38_600.jpg",
+          "price": 7000.00,
+          "characteristics": {
+            "type": "Планшет",
+            "manufacturer": "Lenovo",
+            "screenSize": "11 дюймов",
+            "storage": "128 GB",
+            "RAM": "6 GB",
+            "processor": "Qualcomm Snapdragon",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Storm Grey"
+          }
+        }
+      ],
+ 
+   
+      "WashingMachines": [
+        {
+          "id": "ardesto-wms-6118w",
+          "name": "Пральна машина Ardesto WMS-6118W",
+          "photo": "https://i.moyo.ua/img/products/4235/42_600.jpg",
+          "price": 11400.00,
+          "characteristics": {
+            "type": "Фронтальна",
+            "manufacturer": "Ardesto",
+            "capacity": "6 кг",
+            "spinSpeed": "1200 об/хв",
+            "energyClass": "A++",
+            "display": "Немає",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Білий"
+          }
+        },
+        {
+          "id": "whirlpool-6kg-1200",
+          "name": "Пральна машина Whirlpool Фронтальна 6kg 1200",
+          "photo": "https://i.moyo.ua/img/products/5269/10_600.jpg",
+          "price": 16200.00,
+          "characteristics": {
+            "type": "Фронтальна",
+            "manufacturer": "Whirlpool",
+            "capacity": "6 кг",
+            "spinSpeed": "1200 об/хв",
+            "energyClass": "A+",
+            "display": "Є",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний/Білий"
+          }
+        },
+        {
+          "id": "indesit-btwa51052ua",
+          "name": "Пральна машина Indesit BTWA51052UA",
+          "price": 17300.00,
+          "photo": "https://i.moyo.ua/img/products/5269/10_600.jpg",
+          "characteristics": {
+            "type": "Вертикальна",
+            "manufacturer": "Indesit",
+            "capacity": "5 кг",
+            "spinSpeed": "1000 об/хв",
+            "energyClass": "A+",
+            "display": "Немає",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Білий"
+          }
+        },
+        {
+          "id": "lg-f2j3hs2w",
+          "name": "Пральна машина LG F2J3HS2W",
+          "photo": "https://i.moyo.ua/img/products/4627/25_600.jpg",
+          "price": 16100.00,
+          "characteristics": {
+            "type": "Фронтальна",
+            "manufacturer": "LG",
+            "capacity": "7 кг",
+            "spinSpeed": "1200 об/хв",
+            "energyClass": "A+++",
+            "display": "Є",
+            "warranty": "24 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Білий"
+          }
+        },
+        {
+          "id": "samsung-ww62j30g0lw",
+          "name": "Пральна машина Samsung WW62J30G0LW/UA",
+          "photo": "https://i.moyo.ua/img/products/5263/67_600.jpg",
+          "price": 26100.00,
+          "characteristics": {
+            "type": "Фронтальна",
+            "manufacturer": "Samsung",
+            "capacity": "6 кг",
+            "spinSpeed": "1000 об/хв",
+            "energyClass": "A++",
+            "display": "Є",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Білий"
+          }
+        },
+        {
+          "id": "ardesto-wms-6109w",
+          "name": "Пральна машина Ardesto WMS-6109W",
+          "photo": "https://i.moyo.ua/img/products/4235/40_600.jpg",
+          "price": 18050.00,
+          "characteristics": {
+            "type": "Фронтальна",
+            "manufacturer": "Ardesto",
+            "capacity": "6 кг",
+            "spinSpeed": "1000 об/хв",
+            "energyClass": "A++",
+            "display": "Немає",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Білий"
+          }
+        },
+        {
+          "id": "samsung-wd10t654cbh",
+          "name": "Прально-сушильна машина Samsung WD10T654CBH/UA",
+          "photo": "https://i.moyo.ua/img/products/5019/76_600.jpeg",
+          "price": 37000.00,
+          "characteristics": {
+            "type": "Фронтальна",
+            "manufacturer": "Samsung",
+            "capacity": "10 кг",
+            "spinSpeed": "1400 об/хв",
+            "energyClass": "A",
+            "display": "Є",
+            "warranty": "24 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "samsung-wd80k52e0zw",
+          "name": "Прально-сушильна машина Samsung WD80K52E0ZW/UA",
+          "photo": "https://i.moyo.ua/img/products/4638/3_600.jpeg",
+          "price": 39000.00,
+          "characteristics": {
+            "type": "Фронтальна",
+            "manufacturer": "Samsung",
+            "capacity": "8 кг",
+            "spinSpeed": "1400 об/хв",
+            "energyClass": "A",
+            "display": "Є",
+            "warranty": "24 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Білий"
+          }
+        }
+      ],
+      "Refrigerators": [
+        {
+          "id": "indesit-li8s1es",
+          "name": "Холодильник Indesit LI8S1ES",
+          "photo": "https://i.moyo.ua/img/products/4963/62_600.jpg",
+          "price": 25300.00,
+          "characteristics": {
+            "type": "Двокамерний",
+            "manufacturer": "Indesit",
+            "capacity": "340 л",
+            "coolingType": "No Frost",
+            "energyClass": "A+",
+            "height": "185 см",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Білий"
+          }
+        },
+        {
+          "id": "whirlpool-w5811eox",
+          "name": "Холодильник Whirlpool W5811EOX",
+          "photo": "https://i.moyo.ua/img/products/4459/95_600.jpg",
+          "price": 16200.00,
+          "characteristics": {
+            "type": "Двокамерний",
+            "manufacturer": "Whirlpool",
+            "capacity": "320 л",
+            "coolingType": "No Frost",
+            "energyClass": "A+",
+            "height": "200 см",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Сріблястий"
+          }
+        },
+        {
+          "id": "indesit-li6s1ew",
+          "name": "Холодильник Indesit LI6S1EW",
+          "photo": "https://i.moyo.ua/img/products/5005/56_600.jpg",
+          "price": 28500.00,
+          "characteristics": {
+            "type": "Двокамерний",
+            "manufacturer": "Indesit",
+            "capacity": "340 л",
+            "coolingType": "No Frost",
+            "energyClass": "A+",
+            "height": "185 см",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Білий"
+          }
+        },
+        {
+          "id": "lg-gw-b509sbnm",
+          "name": "Холодильник LG GW-B509SBNM",
+          "photo": "https://i.moyo.ua/img/products/5248/67_600.jpg",
+          "price": 19300.00,
+          "characteristics": {
+            "type": "Двокамерний",
+            "manufacturer": "LG",
+            "capacity": "509 л",
+            "coolingType": "No Frost",
+            "energyClass": "A+",
+            "height": "200 см",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Сріблястий"
+          }
+        },
+        {
+          "id": "bosch-kgn33nl206",
+          "name": "Холодильник Bosch KGN33NL206",
+          "photo": "https://i.moyo.ua/img/products/4110/0_600.jpg",
+          "price": 29300.00,
+          "characteristics": {
+            "type": "Двокамерний",
+            "manufacturer": "Bosch",
+            "capacity": "330 л",
+            "coolingType": "No Frost",
+            "energyClass": "A++",
+            "height": "200 см",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Німеччина",
+            "color": "Білий"
+          }
+        },
+        {
+          "id": "bosch-kgn39xw326",
+          "name": "Холодильник Bosch KGN39XW326",
+          "photo": "https://i.moyo.ua/img/products/4621/44_600.jpg",
+          "price": 31900.00,
+          "characteristics": {
+            "type": "Двокамерний",
+            "manufacturer": "Bosch",
+            "capacity": "400 л",
+            "coolingType": "No Frost",
+            "energyClass": "A++",
+            "height": "200 см",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Німеччина",
+            "color": "Білий"
+          }
+        },
+        {
+          "id": "indesit-li9s1ew",
+          "name": "Холодильник Indesit LI9S1EW",
+          "photo": "https://i.moyo.ua/img/products/5005/57_600.jpg",
+          "price": 27600.00,
+          "characteristics": {
+            "type": "Двокамерний",
+            "manufacturer": "Indesit",
+            "capacity": "340 л",
+            "coolingType": "No Frost",
+            "energyClass": "A+",
+            "height": "185 см",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Білий"
+          }
+        },
+        {
+          "id": "bosch-kgn39xi326",
+          "name": "Холодильник Bosch KGN39XI326",
+          "photo": "https://i.moyo.ua/img/products/4598/27_600.jpg",
+          "price": 42100.00,
+          "characteristics": {
+            "type": "Двокамерний",
+            "manufacturer": "Bosch",
+            "capacity": "350 л",
+            "coolingType": "No Frost",
+            "energyClass": "A++",
+            "height": "200 см",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Німеччина",
+            "color": "Сірий"
+          }
+        }
+      ],
+      "Televisions": [
+        {
+          "id": "samsung-58tu7100",
+          "name": "Телевізор Samsung 58TU7100",
+          "photo": "https://i.moyo.ua/img/products/4635/88_600.jpg",
+          "price": 18300.00,
+          "characteristics": {
+            "type": "LED",
+            "manufacturer": "Samsung",
+            "screenSize": "58 дюймів",
+            "resolution": "4K UHD",
+            "smartTV": "Да",
+            "warranty": "24 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "samsung-43au7100",
+          "name": "Телевізор Samsung 43AU7100",
+          "photo": "https://i.moyo.ua/img/products/4881/1_600.jpg",
+          "price": 16100.00,
+          "characteristics": {
+            "type": "LED",
+            "manufacturer": "Samsung",
+            "screenSize": "43 дюйми",
+            "resolution": "4K UHD",
+            "smartTV": "Да",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "lg-43nano766qa",
+          "name": "Телевізор LG 43NANO766QA",
+          "photo": "https://i.moyo.ua/img/products/5231/89_600.jpeg",
+          "price": 36200.00,
+          "characteristics": {
+            "type": "NanoCell",
+            "manufacturer": "LG",
+            "screenSize": "43 дюйми",
+            "resolution": "4K UHD",
+            "smartTV": "Да",
+            "warranty": "24 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "lg-50un640s",
+          "name": "Телевізор Комерційний LG 50UN640S UHD",
+          "photo": "https://i.moyo.ua/img/products/5731/57_600.jpg",
+          "price": 51600.00,
+          "characteristics": {
+            "type": "LED",
+            "manufacturer": "LG",
+            "screenSize": "50 дюймів",
+            "resolution": "UHD",
+            "smartTV": "Да",
+            "warranty": "24 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "lg-oled42c3",
+          "name": "Телевізор LG OLED 42C3",
+          "photo": "https://i.moyo.ua/img/products/5447/49_600.jpeg",
+          "price": 32400.00,
+          "characteristics": {
+            "type": "OLED",
+            "manufacturer": "LG",
+            "screenSize": "42 дюйми",
+            "resolution": "4K UHD",
+            "smartTV": "Да",
+            "warranty": "12 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "samsung-55cu8500",
+          "name": "Телевізор Samsung 55CU8500",
+          "photo": "https://i.moyo.ua/img/products/5384/65_600.jpg?1724321175",
+          "price": 24700.00,
+          "characteristics": {
+            "type": "LED",
+            "manufacturer": "Samsung",
+            "screenSize": "55 дюймів",
+            "resolution": "4K UHD",
+            "smartTV": "Да",
+            "warranty": "24 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "samsung-85cu8000",
+          "name": "Телевізор Samsung 85CU8000",
+          "photo": "https://i.moyo.ua/img/products/5386/55_600.jpg?1724324886",
+          "price": 62800.00,
+          "characteristics": {
+            "type": "LED",
+            "manufacturer": "Samsung",
+            "screenSize": "85 дюймів",
+            "resolution": "4K UHD",
+            "smartTV": "Да",
+            "warranty": "24 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        },
+        {
+          "id": "samsung-qe85qn800a",
+          "name": "Телевізор Samsung QLED QE85QN800A",
+          "photo": "https://i.moyo.ua/img/products/4881/55_600.jpeg",
+          "price": 143000.00,
+          "characteristics": {
+            "type": "QLED",
+            "manufacturer": "Samsung",
+            "screenSize": "85 дюймів",
+            "resolution": "8K UHD",
+            "smartTV": "Да",
+            "warranty": "24 місяців",
+            "countryOfManufacture": "Китай",
+            "color": "Чорний"
+          }
+        }
+      ]
+    }
+
+
+
+  
