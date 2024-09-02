@@ -152,7 +152,7 @@ loginForm.addEventListener('submit', function (event) {
     if (user) {
         setCurrentUser(user.id); // Збереження поточного користувача перед переходом
         alert('Ви успішно увійшли до системи!');
-        window.location.href = './user-account.html'; // Перенаправлення на сторінку особистого кабінету
+        window.location.href = 'https://svetlanaforte-2000.github.io/new-my-shop/product/user-account.html'; // Перенаправлення на сторінку особистого кабінету
     } else {
         alert('Неправильний номер телефону або пароль');
     }
