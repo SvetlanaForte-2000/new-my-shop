@@ -295,7 +295,7 @@ function removeItem(index) {
 }
 // Функція для переходу на сторінку оформлення замовлення
 document.getElementById('checkout-button').addEventListener('click', function() {
-    window.location.href = '../checkout.html';
+    window.location.href = 'https://svetlanaforte-2000.github.io/new-my-shop/checkout.html';
 });
 
 // Додавання обробників подій
