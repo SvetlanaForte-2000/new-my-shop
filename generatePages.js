@@ -105,7 +105,7 @@ const characteristicTranslations = {
         "batteryType": "Акумулятор (тип)",
         "batteryCharging": "Зарядка",
         "keyboardBacklight": "Підсвітка клавіатури",
-        "weight": "Вага ноутбука (без ЗП), кг",
+        "weight": "Вага, кг",
         "product_dimensions": "Габарити (ШхГхВ), мм",
         "portType": "Типи портів",
         "audioOutput": "Аудіовихід",
