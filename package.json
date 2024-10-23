@@ -1,10 +1,24 @@
 {
-    "name": "new-my-shop",
-    "version": "1.0.0",
-    "scripts": {
-      "start": "http-server ."
-    },
-    "dependencies": {
-      "http-server": "^14.1.1"
-    }
-  }
+  "name": "new-my-shop",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "http-server": "^14.1.1"
+  },
+  "description": "Представляю  навчальний проет інтернет-магазину.\r Для почтатку Вам потрібно зареєструватися, щоб здійснювати замовлення.\r На електронну адресу Ви отримаєте листа з паролем до особистого кабінету.\r В особистому кабінеті Вми зможете побачити всі свої замовлення та особисті дані.\r Зміна особистих даних на даний момент не реалізовані.\r Ви можете застосувати промо-коди лри оформленні замовлення SUMMER10 або WINTER15.\r Сторінки товарів генеруються за допомогою файла generatePages.js, а всі дані зберігаються в LocalStorag.\r В проект інтерговано API нової пошти для пошука міст і відділень.\r Оплати не підключалися.\r На даному етапі ще не всі функції реальзовані.\r З працюючих: пошук, корзина, оформлення замовлення, каталог, особистий кабінет, є сортування та фільтри.",
+  "main": "btn.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlanaForte-2000/new-my-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvetlanaForte-2000/new-my-shop/issues"
+  },
+  "homepage": "https://github.com/SvetlanaForte-2000/new-my-shop#readme"
+}
