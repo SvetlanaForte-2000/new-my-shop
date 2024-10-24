@@ -2,7 +2,7 @@
   "name": "new-my-shop",
   "version": "1.0.0",
   "scripts": {
-    "start": "http-server ."
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.21.1",
